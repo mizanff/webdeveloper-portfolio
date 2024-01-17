@@ -1,12 +1,13 @@
 /* common shared styles */
+/* nav related styles */
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.text-perimary{
+.text-perimary {
     color: orange;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: orange;
     border: 0;
@@ -15,19 +16,19 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
-/* nav related styles*/
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
+    
 }
-
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-
 nav > ul{
     display: flex;
     align-items: center;
@@ -40,4 +41,3 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
- 
